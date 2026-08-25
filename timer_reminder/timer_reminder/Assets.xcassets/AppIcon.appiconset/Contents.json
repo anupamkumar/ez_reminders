@@ -1,0 +1,68 @@
+{
+  "images" : [
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf 3.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf 4.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf 5.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf 6.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf 7.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf 8.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf 9.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf 2.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "Gemini_Generated_Image_88xfx688xfx688xf 1.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "512x512"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
