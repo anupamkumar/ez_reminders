@@ -4,6 +4,8 @@ A lightweight, native macOS menu-bar utility designed to keep you on track. EZ-R
 
 When a timer hits zero, it triggers a highly visible, always-on-top flashing alert to ensure you never miss a reminder. 
 
+![EZ-Reminders](images/5.png)
+
 ## Features
 * **Menu-Bar Native:** Runs quietly in the background as an accessory app with live, human-readable countdowns in the drop-down menu.
 * **Persistent State:** Timers automatically save to disk and survive app quits or system restarts.
@@ -29,25 +31,30 @@ If you just want to use the app without messing with code, you can download the 
 ### The Menu Bar Interface
 Once launched, EZ-Reminders lives completely in your macOS menu bar. Click the ⏰ icon to see a live, human-readable countdown for all your currently active timers.
 
-![Menu Bar Dropdown](path/to/menu_bar_screenshot.png)
+![Menu Bar Dropdown](images/1.png)
 
 ### Managing Timers
 Click **Manage Timers...** from the drop-down to open the main dashboard. Here you can:
 * **Inline Edit:** Rename your timers or adjust their duration (in minutes) by typing directly into the table cells.
 * **Toggle State:** Quickly pause (disable) active timers or set them to automatically repeat when they hit zero.
+
+![Manage Timers Window](images/2.png)
+
 * **Add New:** Create precise countdowns by selecting combinations of hours and minutes. 
 
-![Manage Timers Window](path/to/manage_timers_screenshot.png)
+![Add New Timer](images/3.png)
+
 
 ### Aggressive Alerts
 When a timer finishes, EZ-Reminders forces a window above all your other apps. To ensure you actually acknowledge the reminder, the "Okay" button is temporarily disabled while the window flashes.
-
-![Alert Pop-up](path/to/alert_popup_screenshot.png)
+----
+![Alert Pop-up](images/6.1png)|![Alert Pop-up](images/6.2png)
+----
 
 ### Customizing Settings
 From the top Apple menu bar, select **EZ-Reminders > Settings...** to tailor the app to your preferences. You can pick custom flashing colors, adjust the animation speed, change the required delay before you can dismiss an alert, and toggle the automatic background startup. 
 
-![Settings Window](path/to/settings_screenshot.png)
+![Settings Window](images/4.png)
 
 ## Getting Started (For Developers)
 
