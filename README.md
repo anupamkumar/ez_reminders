@@ -68,9 +68,22 @@ To run or modify this project on your own macOS machine:
 
 1. **Clone the repository:** 
    ```bash
-   git clone [https://github.com/yourusername/ez-reminders.git](https://github.com/yourusername/ez-reminders.git)
+   git clone https://github.com/anupamkumar/ez_reminders.git
+   ```
+
+2. **Open the project in Xcode:** 
+   ```
+   open -a Xcode ez_reminders.xcodeproj
+   ```
+
+3. **Build and Run:**
+   ```
+   cd ez_reminders
+   swift build
+   swift run
+   ```
 
 ## Credits
 
 * **Anupam Kumar** – Concept, Architecture, and Lead Development
-* **Gemini** (Google AI) – AI Pair Programming & Implementation Assistance
+* **Gemini** – AI Pair Programming & Implementation Assistance
