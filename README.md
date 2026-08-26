@@ -1,10 +1,16 @@
 # EZ-Reminders
 
+#### *The aggressively persistent timer app for when 'I’ll do it in a second' is a complete lie.*
+
+![EZ-Reminders](images/5.png)
+
+## About
+
 A lightweight, native macOS menu-bar utility designed to keep you on track. EZ-Reminders allows you to set multiple named timers and recurring reminders that display live countdowns directly in your Mac's menu bar. 
 
 When a timer hits zero, it triggers a highly visible, always-on-top flashing alert to ensure you never miss a reminder. 
 
-![EZ-Reminders](images/5.png)
+#### *Zero excuses. Un-dismissible reminders for your Mac.*
 
 ## Features
 * **Menu-Bar Native:** Runs quietly in the background as an accessory app with live, human-readable countdowns in the drop-down menu.
@@ -63,3 +69,8 @@ To run or modify this project on your own macOS machine:
 1. **Clone the repository:** 
    ```bash
    git clone [https://github.com/yourusername/ez-reminders.git](https://github.com/yourusername/ez-reminders.git)
+
+## Credits
+
+* **Anupam Kumar** – Concept, Architecture, and Lead Development
+* **Gemini** (Google AI) – AI Pair Programming & Implementation Assistance
