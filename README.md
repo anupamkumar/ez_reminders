@@ -6,6 +6,9 @@
 
 ## About
 
+##### Build status
+[![macOS Build](https://github.com/anupamkumar/ez-reminders/actions/workflows/build.yml/badge.svg)](https://github.com/anupamkumar/ez-reminders/actions/workflows/objective-c-xcode.yml)
+
 A lightweight, native macOS menu-bar utility designed to keep you on track. EZ-Reminders allows you to set multiple named timers and recurring reminders that display live countdowns directly in your Mac's menu bar. 
 
 When a timer hits zero, it triggers a highly visible, always-on-top flashing alert to ensure you never miss a reminder. 
