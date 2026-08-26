@@ -1,0 +1,26 @@
+name: macOS Build
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    name: Build and Compile
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Build the App
+      # We use xcodebuild to compile, explicitly disabling Code Signing for the CI runner
+      run: |
+        xcodebuild clean build \
+          -project src/timer_reminder.xcodeproj \
+          -scheme timer_reminder \
+          -destination 'platform=macOS' \
+          CODE_SIGN_IDENTITY="" \
+          CODE_SIGNING_REQUIRED=NO \
+          CODE_SIGNING_ALLOWED=NO
