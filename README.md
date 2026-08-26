@@ -24,13 +24,35 @@ If you just want to use the app without messing with code, you can download the 
    * **Right-click** (or Control-click) on `EZ-Reminders.app` and select **Open**.
    * Click **Open** again in the security prompt that appears.
 
+## Usage
+
+### The Menu Bar Interface
+Once launched, EZ-Reminders lives completely in your macOS menu bar. Click the ⏰ icon to see a live, human-readable countdown for all your currently active timers.
+
+![Menu Bar Dropdown](path/to/menu_bar_screenshot.png)
+
+### Managing Timers
+Click **Manage Timers...** from the drop-down to open the main dashboard. Here you can:
+* **Inline Edit:** Rename your timers or adjust their duration (in minutes) by typing directly into the table cells.
+* **Toggle State:** Quickly pause (disable) active timers or set them to automatically repeat when they hit zero.
+* **Add New:** Create precise countdowns by selecting combinations of hours and minutes. 
+
+![Manage Timers Window](path/to/manage_timers_screenshot.png)
+
+### Aggressive Alerts
+When a timer finishes, EZ-Reminders forces a window above all your other apps. To ensure you actually acknowledge the reminder, the "Okay" button is temporarily disabled while the window flashes.
+
+![Alert Pop-up](path/to/alert_popup_screenshot.png)
+
+### Customizing Settings
+From the top Apple menu bar, select **EZ-Reminders > Settings...** to tailor the app to your preferences. You can pick custom flashing colors, adjust the animation speed, change the required delay before you can dismiss an alert, and toggle the automatic background startup. 
+
+![Settings Window](path/to/settings_screenshot.png)
+
 ## Getting Started (For Developers)
 
 To run or modify this project on your own macOS machine:
 
 1. **Clone the repository:** 
    ```bash
-   git clone https://github.com/anupamkumar/ez_reminders.git
-   ```
-
-
+   git clone [https://github.com/yourusername/ez-reminders.git](https://github.com/yourusername/ez-reminders.git)
