@@ -1,5 +1,3 @@
-#### *ez_reminders - nag-yourself to timebox the things you want to be reminded of*
-
 # EZ-Reminders
 
 A lightweight, native macOS menu-bar utility designed to keep you on track. EZ-Reminders allows you to set multiple named timers and recurring reminders that display live countdowns directly in your Mac's menu bar. 
@@ -13,17 +11,23 @@ When a timer hits zero, it triggers a highly visible, always-on-top flashing ale
 * **Native Settings UI:** Fully customizable alert colors, flash frequencies, and button delays using modern macOS form styling.
 * **Launch on Login:** Seamlessly registers to auto-start when you turn on your Mac without requiring root or admin privileges.
 
-## Tech Stack
-* **Language:** Swift 
-* **UI Framework:** SwiftUI 
-* **Window Management & Dock Integration:** AppKit 
-* **Background Startups:** ServiceManagement (`SMAppService`)
+## Installation (Quick Start)
 
-## Getting Started
+If you just want to use the app without messing with code, you can download the pre-compiled version:
+
+1. Navigate to the **Releases** section on the right side of this GitHub page.
+2. Download the latest `EZ-Reminders.app.zip` file.
+3. Unzip the downloaded file and drag `EZ-Reminders.app` into your Mac's **Applications** folder. 
+   > **Note:** The app will not be able to successfully register its auto-start feature if you run it from your Downloads or Desktop folder.
+4. **Bypass Gatekeeper:** Because this is an independently signed app, macOS will initially flag it. To open it the first time:
+   * Open your Applications folder in Finder.
+   * **Right-click** (or Control-click) on `EZ-Reminders.app` and select **Open**.
+   * Click **Open** again in the security prompt that appears.
+
+## Getting Started (For Developers)
 
 To run or modify this project on your own macOS machine:
 
-1. **Clone the repository:** Ensure you have Git Large File Storage (LFS) enabled on your system before cloning, so that any high-resolution graphical assets (like the 1024x1024 `.app` icon) download correctly.
+1. **Clone the repository:** 
    ```bash
    git clone [https://github.com/yourusername/ez-reminders.git](https://github.com/yourusername/ez-reminders.git)
-
