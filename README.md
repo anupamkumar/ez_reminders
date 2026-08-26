@@ -30,4 +30,7 @@ To run or modify this project on your own macOS machine:
 
 1. **Clone the repository:** 
    ```bash
-   git clone [https://github.com/yourusername/ez-reminders.git](https://github.com/yourusername/ez-reminders.git)
+   git clone https://github.com/anupamkumar/ez_reminders.git
+   ```
+
+
