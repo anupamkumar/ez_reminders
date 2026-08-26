@@ -49,7 +49,7 @@ Click **Manage Timers...** from the drop-down to open the main dashboard. Here y
 When a timer finishes, EZ-Reminders forces a window above all your other apps. To ensure you actually acknowledge the reminder, the "Okay" button is temporarily disabled while the window flashes.
 | Flashing | Done |
 | --- | --- |
-| ![Alert Pop-up](images/6.1png) | ![Alert Pop-up-done](images/6.2png) |
+| ![Alert Pop-up](images/6.1.png) | ![Alert Pop-up-done](images/6.2.png) |
 
 ### Customizing Settings
 From the top Apple menu bar, select **EZ-Reminders > Settings...** to tailor the app to your preferences. You can pick custom flashing colors, adjust the animation speed, change the required delay before you can dismiss an alert, and toggle the automatic background startup. 
