@@ -18,7 +18,7 @@ jobs:
       # We use xcodebuild to compile, explicitly disabling Code Signing for the CI runner
       run: |
         xcodebuild clean build \
-          -project timer_reminder.xcodeproj \
+          -project src/timer_reminder.xcodeproj \
           -scheme timer_reminder \
           -destination 'platform=macOS' \
           CODE_SIGN_IDENTITY="" \
